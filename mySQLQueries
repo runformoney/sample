@@ -1,0 +1,13 @@
+CREATE TABLE `axis_bank`.`account_details` (
+  `cust_accnum` INT NOT NULL,
+  `cust_fname` VARCHAR(80) NULL,
+  `cust_lname` VARCHAR(80) NULL,
+  `cust_email` VARCHAR(45) NULL,
+  `cust_mobilenumber` INT NOT NULL,
+  `cust_atm_number` INT NULL,
+  `cust_atm_pin` INT NULL,
+  `cust_accif` INT NULL,
+  `cust_acccif` INT NULL,
+  `cust_activationcode` INT NULL,
+  PRIMARY KEY (`cust_accnum`))
+COMMENT = 'Account Details of Customers';
